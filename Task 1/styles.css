@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  background-color: #3F51B5;
+  font-size: 24px;
+  height: 80px;
+}
+
+  header:hover {
+    background-color: #5C6BC0;
+  }
+
+  header:hover > h1 {
+    position: relative;
+    left: 10px;
+  }
+
+h1 {
+  background: linear-gradient(to right, #F56400, #FF00A5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main {
+  background-color: #F5F5F5;
+  font-size: 16px;
+  color: #000000;
+  height: auto;
+  border: 1px solid #D3D3D3;
+}
+
+  main:hover {
+    color: #FFFFFF;
+    background-color: #616161;
+  }
+
+footer {
+  background-color: #000000;
+  font-size: 12px;
+  color: #BDBDBD;
+  height: 60px;
+}
+
+  footer:hover > p {
+    transform: rotate(360deg);
+    transition: transform 1s;
+  }

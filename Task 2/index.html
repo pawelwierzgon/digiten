@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <div id="big-wrapper">
+    <div id="filters">
+      <div id="filter-category" class="filter box">
+        <button id="filter-category-btn">Categories</button>
+        <div id="filter-category-list" class="box hidden list">
+          <form id="filter-category-form"></form>
+        </div>
+      </div>
+      <div id="filter-range" class="filter box">
+        <button id="filter-range-btn">Range</button>
+        <div id="filter-range-list" class="box hidden list">
+          <form id="filter-range-form">
+            <div class="filter-range-option">
+              <label for="filter-range-start">From: </label>
+              <input type="date" id="filter-range-start">
+            </div>
+            <div class="filter-range-option">
+              <label for="filter-range-finish">To: </label>
+              <input type="date" id="filter-range-finish">
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <div id="filter-sort" class="filter box">
+        <button id="filter-sort-btn">Sort (desc)</button>
+      </div>
+    </div>
+    <div id="blog-entries"></div>
+</div>
+</body>
+</html>
